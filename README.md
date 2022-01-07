@@ -104,3 +104,6 @@ Options:
   -t, --tempdir string   the directory to store temp files such as cover thumbnails (created on start, deleted on exit unless already exists) (default "/tmp/bookbrowser946254949")
       --version          Show the version
 ```
+
+## 运行
+docker run -d -p 8090:8090 -v /储存图书的目录:/books --name bookbrowser_cn dezhao/bookbrowser_cn:latest
